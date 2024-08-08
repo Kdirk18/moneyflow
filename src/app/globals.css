@@ -31,3 +31,24 @@ body {
     text-wrap: balance;
   }
 }
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.graph-container {
+  overflow: hidden;
+}
+.tree-container {
+  width: 1600px;
+  height: 1100px; /* Chiều cao khung */
+  border: 2px solid #ccc; /* Màu viền khung */
+  border-radius: 8px; /* Bo góc khung */
+  overflow: auto; /* Tạo thanh cuộn nếu nội dung vượt quá kích thước khung */
+  padding: 20px; /* Khoảng cách giữa nội dung và viền khung */
+  background-color: #f9f9f9; /* Màu nền khung */
+}
+#graph-id {
+  width: 100%;
+  height: 100%;
+}
